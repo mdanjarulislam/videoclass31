@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Css Style */
+.top-header .span {
+    color: #fff;
+    background: rgb(117, 117, 230);
+    font-size: 38px;
+    height: 53px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 53px;
+    position: relative;
+    top: 4px;
+}
+.top-header .s {
+    line-height: 69px;
+}
+.header-menu{
+    margin-left: 10px;
+    padding: 0 5px;
+}
+.banner-section{
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(37, 36, 36, 0.6);
+    z-index: -1;
+}
+
+.banner-section{
+    background: url(./image/mbr-10.jpg);
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    background-size: 100%;
+    background-position: top center;
+}
+.banner-section h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.banner-section h1 {
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+}
+.button-two {
+    margin-right: 305px;
+    padding: 16px 35px;
+    margin-top: 65px;
+}
+.button-three {
+    margin-right: px;
+    padding: 16px 35px;
+    margin-top: 65px;
+    margin-right: 0px!important;
+}
+/* slider */
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* servics */
+.servics{
+    background:#F7F9FF;
+    margin-bottom: 30px;
+}
+.servics h2 {
+    font-size: 47px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.servics p {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.servics-item h3 {
+    font-size: 50px;
+    margin-bottom: 45px;
+    font-weight: 400;
+}
+.servics-item h5 {
+    font-size: 30px;
+}
+
+/* temp item */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+/* temp section */
+.star-item {
+    height: 350px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 9px 15px 10px 9px rgb(231, 226, 216);
+}
+.star-left{
+    width: 60%;
+}
+.star-right{
+    width: 40%;
+    overflow: hidden;
+}
+.star-left img{
+    max-width: inherit;
+    height: 100%;
+    width: 100% !important;
+    position: relative;
+    left: -10px;
+
+}
+
+  /* jon header */
+.jon-item a {
+      position: relative;
+      display: block;
+  }
+.jon-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(224, 147, 147,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .8s;
+    
+}
+.jon-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+
+}
+/* Pricing table */
+
+.pricing-section{
+    background: #ddd;
+}
+.pricing-section p{
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    
+}
+.pricing-section p{
+    font-size: 25px !important;
+}
+.pricing-section h1{
+    font-weight: 500;
+}
+
+.pricing-section li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.pricing-section span {
+    height: 70px;
+    display: inline-block;
+    width: 30px;
+    color: blue;
+}
+.pricing-section .end {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    padding: 13px 15px;
+    box-shadow: 2px 1px 13px -2px black;
+    transition: .8s;
+
+}
+
+.pricing-item {
+    padding: 53px 48px;
+    box-shadow: 2px 1px 13px -2px black;
+    background: #fff !important;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*  */
+.portfolio{
+    width: 90%;
+    margin: auto;
+}
+.portfolio h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.portfolio h3 {
+    height: 110px;
+    width: 15%;
+    margin: auto;
+    font-size: 76px;
+    color: #ddd;
+}
+
+.portfolio p {
+    font-size: 24px;
+    line-height: 50px;
+    color: #777;
+    margin-top: 30px;
+}
+.portfolio img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.portfolio .image-item img {
+    width: 100px;
+} 
+
+.portfolio .content {
+    width: 45%;
+}
+.portfolio .figure-item {
+    width: 23%;
+    margin: auto;
+}
+
+.protfolio h5 {
+    font-size: 19px;
+    margin-top: 11px;
+    font-weight: 600;
+}
+/* team section */
+.team-section{
+    background: #ddd;
+    padding: 45px 0px;
+}
+.p {
+    margin-top: 40px;
+    color: #999;
+    margin-bottom: 75px;
+}
+.team-section p {
+    line-height: 30px;
+    font-size: 15px;
+}
+.team-section .team-item {
+    box-shadow: 2px 1px 13px -2px #797979;
+    background: #fff !important;
+}
+.team-section figure{
+    text-align: left;
+}
+
+.team-section .team-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -120px;
+} 
+
+.team-section .team-item .gold {
+    margin-top: 20px;
+    box-shadow: 2px 1px 13px -2px #797979;
+}
+.contact h2{
+    font-size: 50px;
+}
+.contact .forms-items .send{
+    display: block;
+    width: 30%;
+    margin: auto;
+    box-shadow: 2px 1px 13px -2px #797979;
+}
+.contact .first {
+    margin-left: 80px;
+    padding: 6px 14px;
+    box-shadow: 2px 1px 13px -2px #797979;
+}
+.contact .seconds{
+    box-shadow: 2px 1px 13px -2px #797979;
+}
+
+
+
+
+
+
